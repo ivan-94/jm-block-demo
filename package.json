@@ -4,5 +4,8 @@
   "version": "1.0.0",
   "description": "block template",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
 }
