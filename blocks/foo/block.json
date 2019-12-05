@@ -1,0 +1,25 @@
+{
+  "name": "页面",
+  "version": "0.1.0",
+  "description": "区块描述",
+  // 标签，方便检索
+  "tag": ["页面模板", "生成器"],
+  // 截图
+  "snapshot": "./snapshot.png",
+  // 模板模型, 使用JSON schema 来描述模板中需要使用到的数据
+  // 学习：https://json-schema.org/learn/getting-started-step-by-step.html
+  // 编辑器：https://rjsf-team.github.io/react-jsonschema-form/
+  "model": {
+    "title": "佳米页面模板",
+    "description": "典型多页面项目的页面模板",
+    "type": "object",
+    "required": ["Name"],
+    "properties": {
+      "Name": {
+        "type": "string",
+        "title": "页面名称",
+        "default": "MyPage"
+      }
+    }
+  }
+}
