@@ -11,10 +11,10 @@
   // 学习：https://json-schema.org/learn/getting-started-step-by-step.html
   // 编辑器：https://rjsf-team.github.io/react-jsonschema-form/
   "model": {
-    "title": "A registration form",
-    "description": "A simple form example.",
+    "title": "这是一个简单的页面",
+    "description": "简单的描述",
     "type": "object",
-    "required": ["componentName"],
+    "required": ["componentName", "name"],
     "properties": {
       "componentName": {
         "type": "string",

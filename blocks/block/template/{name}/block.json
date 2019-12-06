@@ -1,0 +1,22 @@
+{
+  "name": "<%- name %>",
+  "description": "<%- desc %>",
+  "version": "0.1.0",
+  "author": "ivan",
+  // 标签，方便检索
+  "tag": [<%- tags.map(i => `"${i}"`).join(',') %>],
+  // 模板模型, 使用JSON schema 来描述模板中需要使用到的数据
+  // 学习：https://json-schema.org/learn/getting-started-step-by-step.html
+  // 编辑器：https://rjsf-team.github.io/react-jsonschema-form/
+  "model": {
+    "type": "object",
+    "required": ["name", "desc", "tags"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "字段名",
+        "default": "default value"
+      }
+    }
+  }
+}

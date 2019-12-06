@@ -1,0 +1,34 @@
+{
+  "name": "区块模板",
+  "description": "区块生成器",
+  "version": "0.1.0",
+  "author": "ivan",
+  // 标签，方便检索
+  "tag": ["模板", "区块"],
+  // 模板模型, 使用JSON schema 来描述模板中需要使用到的数据
+  // 学习：https://json-schema.org/learn/getting-started-step-by-step.html
+  // 编辑器：https://rjsf-team.github.io/react-jsonschema-form/
+  "model": {
+    "type": "object",
+    "required": ["name", "desc", "tags"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "区块名称",
+        "default": "myblock"
+      },
+      "desc": {
+        "type": "string",
+        "title": "区块描述",
+        "default": "myblock is awesome"
+      },
+      "tags": {
+        "type": "array",
+        "title": "标签",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

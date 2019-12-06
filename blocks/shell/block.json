@@ -1,0 +1,8 @@
+{
+  "name": "shell",
+  "description": "实用的 shell 代码片段",
+  "version": "0.1.0",
+  "author": "ivan",
+  // 标签，方便检索
+  "tag": ["shell", "linux", "代码片段"]
+}

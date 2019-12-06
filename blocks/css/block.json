@@ -1,0 +1,8 @@
+{
+  "name": "css",
+  "description": "实用的CSS 代码片段",
+  "version": "0.1.0",
+  "author": "ivan",
+  // 标签，方便检索
+  "tag": ["css","代码片段"]
+}
