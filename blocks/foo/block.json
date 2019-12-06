@@ -1,6 +1,7 @@
 {
   "name": "页面",
   "version": "0.1.0",
+  "author": "ivan",
   "description": "区块描述",
   // 标签，方便检索
   "tag": ["页面模板", "生成器"],

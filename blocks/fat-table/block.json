@@ -1,0 +1,40 @@
+{
+  "name": "表格",
+  "version": "0.1.0",
+  "author": "ivan",
+  "description": "表格示例",
+  // 标签，方便检索
+  "tag": ["页面模板", "生成器"],
+  // 截图
+  // 模板模型, 使用JSON schema 来描述模板中需要使用到的数据
+  // 学习：https://json-schema.org/learn/getting-started-step-by-step.html
+  // 编辑器：https://rjsf-team.github.io/react-jsonschema-form/
+  "model": {
+    "title": "FatTable",
+    "type": "object",
+    "required": ["fields", "name"],
+    "properties": {
+      "name": {
+        "type": "string",
+        "default": "MyTable"
+      },
+      "fields": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

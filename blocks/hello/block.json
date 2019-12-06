@@ -2,6 +2,7 @@
   "name": "区块名称 hello",
   "version": "0.1.0",
   "description": "区块描述",
+  "author": "ivan",
   // 标签，方便检索
   "tag": ["组件", "PC"],
   // 截图
